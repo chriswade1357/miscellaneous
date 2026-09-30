@@ -1,2 +1,11 @@
 ***GENERAL TEXT FILE***
 P6ENHDAK7V9SZ765
+
+
+set firewall family ethernet-switching filter COUNT-VLAN-REWRITE term PRE from vlan 4050
+set firewall family ethernet-switching filter COUNT-VLAN-REWRITE term PRE then count PRE-XLATE
+set firewall family ethernet-switching filter COUNT-VLAN-REWRITE term PRE then accept
+
+set firewall family ethernet-switching filter COUNT-VLAN-REWRITE term POST from vlan 3950
+set firewall family ethernet-switching filter COUNT-VLAN-REWRITE term POST then count POST-XLATE
+set firewall family ethernet-switching filter COUNT-VLAN-REWRITE term POST then accept
