@@ -9,3 +9,5 @@ set firewall family ethernet-switching filter COUNT-VLAN-REWRITE term PRE then a
 set firewall family ethernet-switching filter COUNT-VLAN-REWRITE term POST from vlan 3950
 set firewall family ethernet-switching filter COUNT-VLAN-REWRITE term POST then count POST-XLATE
 set firewall family ethernet-switching filter COUNT-VLAN-REWRITE term POST then accept
+
+show firewall filter COUNT-VLAN-REWRITE
