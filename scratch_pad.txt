@@ -14,3 +14,5 @@ set firewall family ethernet-switching filter COUNT-VLAN-REWRITE term POST then 
 set interfaces et-0/0/55 unit 0 family ethernet-switching filter input COUNT-VLAN-REWRITE
 
 show firewall filter COUNT-VLAN-REWRITE
+
+EitCUdcbr4fYCQGC
