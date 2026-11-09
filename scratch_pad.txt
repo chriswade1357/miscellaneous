@@ -16,5 +16,4 @@ set interfaces et-0/0/55 unit 0 family ethernet-switching filter input COUNT-VLA
 show firewall filter COUNT-VLAN-REWRITE
 
 
-6TfcvgY78UhbnjI9
-EitCUdcbr4fYCQGC
+
